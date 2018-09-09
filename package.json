@@ -1,0 +1,24 @@
+{
+  "name": "iris",
+  "version": "0.0.1",
+  "description": "Iris is responsible for establishing communication between various aspects of the platform.\r It will use \r - **MQTT** - for device to device communication.\r - **WebSockets** - for realtime device monitoring over poseidon.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": "git+https://github.com/zeus-home/iris.git",
+  "author": "Swanav <swanav@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeus-home/iris/issues"
+  },
+  "homepage": "https://github.com/zeus-home/iris#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.4",
+    "showdown": "^1.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
